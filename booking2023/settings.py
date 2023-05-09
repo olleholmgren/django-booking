@@ -32,7 +32,7 @@ SECRET_KEY = os.environ.get('SECRET_KEY')
 
 DEBUG = True
 
-ALLOWED_HOSTS = ['booking2023.herokuapp.com', 'localhost']
+ALLOWED_HOSTS = ['bookinapp.herokuapp.com', 'localhost']
 
 
 # Application definition
