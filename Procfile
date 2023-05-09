@@ -1,0 +1,1 @@
+web: gunicorn booking2023.wsgi
