@@ -1,4 +1,5 @@
-from django.shortcuts import render, HttpResponse
+from django.shortcuts import render
 
-def greet(request):
-    return HttpResponse('Welcome!')
+
+def show_car(request):
+    return render(request, 'car_fleet/index.html')
