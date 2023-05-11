@@ -1,3 +1,5 @@
-from django.shortcuts import render
+from django.shortcuts import render, HttpResponse
+from django.http import HttpResponseRedirect
 
-# Create your views here.
+def greet(request):
+    return HttpResponse('Welcome!')
